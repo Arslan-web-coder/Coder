@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arslan Ahmed | Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <div class="logo">Arslan<span>.</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h1>Hi, I am <span class="highlight">Arslan Ahmed</span></h1>
+                <h2>Software Engineering Student</h2>
+                <p>Building clean, efficient, and user-friendly digital solutions. Passionate about coding, problem-solving, and modern web technologies.</p>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+            <div class="hero-img">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" alt="Arslan Ahmed Workspace">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p>I am a dedicated Software Engineering student driven by curiosity and a desire to learn. I focus on writing clean code and creating intuitive user experiences. Currently exploring full-stack development and software architecture.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills bg-light">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card"><h3>Frontend Dev</h3><p>HTML5, CSS3, JavaScript</p></div>
+                <div class="skill-card"><h3>Software Logic</h3><p>C++, Java, OOP</p></div>
+                <div class="skill-card"><h3>Databases</h3><p>SQL, Firebase</p></div>
+                <div class="skill-card"><h3>Tools</h3><p>Git, GitHub, VS Code</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=500&q=80" alt="Project 1">
+                    <div class="project-info">
+                        <h3>E-Commerce Web App</h3>
+                        <p>A complete responsive online store with modern UI.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=500&q=80" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Management System</h3>
+                        <p>A desktop application for school/hospital administration.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact bg-light">
+        <div class="container text-center">
+            <h2 class="section-title">Let's Work Together</h2>
+            <p>Have an exciting project or internship opportunity? Drop a message!</p>
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('Message Sent Successfully!');">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Arslan Ahmed. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
